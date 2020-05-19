@@ -1,7 +1,15 @@
 class Translation(object):
-    START_TEXT = """This is an @AnyDLBot clone created using the Open Source code available.
-Source Code: https://github.com/SpEcHiDe/AnyDLBot
-© @AnyDLBot"""
+    START_TEXT = """Hi, Am  Gwen's V2.0 Bot..
+      
+Am a Simple bot for Direct Links to TGfile/Streaming Video with Custom Thumbnail Support 😎
+
+☛  Do one By One . Otherwise you will get Permenent Ban
+
+☛ Send - url | New Name.Extension
+
+☛My Support Group&Channel:© @ModzillaGroup | @Modzilla
+                   
+☛ /help for more details..."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "This is an @AnyDLBot clone created using the Open Source <a href='https://github.com/SpEcHiDe/AnyDLBot'>code</a>. \nStart @AnyDLBot to know Paid Plans!"
@@ -9,8 +17,8 @@ Source Code: https://github.com/SpEcHiDe/AnyDLBot
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "trying to download"
-    UPLOAD_START = "trying to upload"
+    DOWNLOAD_START = "Downloading..."
+    UPLOAD_START = "Uploading..."
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. https://t.me/tlgrmcbot?start=anydl_bot-bot"
@@ -30,18 +38,40 @@ URL | filename | username | password"""
 Telegram ID: <code>{}</code>
 Plan name: <a href='https://t.me/SpEcHlDe/599'>{}</a>
 Expires on: {}"""
-    HELP_USER = """There are multiple things I can do:
-👉 <a href="https://t.me/SpEcHlDe/608">All Supported Video / File Formats, with custom file name and custom thumbnail support</a>
-👉 <a href="https://t.me/SpEcHlDe/609">Upload as file from any HTTP link, with custom thumbnail support</a>
-👉 <a href="https://telegram.dog/AnyDLBot">Convert To Streamable Video, any Telegram file</a>
-👉 <a href="https://telegram.dog/AnyDLBot">Convert To Telegram Audio, the media sent as Telegram Documents</a>
-👉 <a href="https://t.me/SpEcHlDe/610">ReName Telegram files, with custom thumbnail support</a>
-👉 <a href="https://t.me/SpEcHlDe/625">Generate Custom Thumbnail by sending two photos in a Media Album</a>
-👉 <a href="https://t.me/SpEcHlDe/653">Trim large videos</a>, and <a href="https://t.me/SpEcHlDe/652">Take Screenshots</a> of Telegram media files.
-👉 <a href="https://t.me/SpEcHlDe/657">Extract compressed Telegram media</a>
-👉 <a href="https://t.me/SpEcHlDe/660">Get a Telegram sticker as a Telegram downloadable media</a>
---------
-Send /me to know current plan details"""
+    HELP_USER = """How To Use Me🤔
+    
+👉 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗶𝗿𝗲𝗰𝘁 𝗨𝗽𝗹𝗼𝗮𝗱 𝗙𝗶𝗹𝗲/𝗩𝗶𝗱𝗲𝗼​
+
+1. Send url (Link|New Name with Extension)
+2. Send Custom Thumbnail (Optional)
+3. Select the button
+    ● SVideo - Give File as video with Screenshots.
+    ● DFile  - Give File with Screenshots
+    ● Video  - Give File as video without Screenshots]
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+👉 𝗛𝗼𝘄 𝗧𝗼 𝗥𝗲𝗻𝗮𝗺𝗲 𝗙𝗶𝗹𝗲𝘀​
+
+1. Send/Forward TG File
+2. Reply /rename (New Name with Extension)
+3. Send Custom Thumbnail
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+👉 𝗛𝗼𝘄 𝗧𝗼 𝗖𝗼𝗻𝘃𝗲𝗿𝘁 𝗙𝗶𝗹𝗲 𝗧𝗼 𝗩𝗶𝗱𝗲𝗼​
+
+1. Send/Forward TG File (.mp4 | .mkv File)
+2. Reply /converttovideo
+3. Send Custom Thumbnail
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+👉 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 𝗩𝗶𝗱𝗲𝗼𝘀​
+
+1. Send/Forward YouTube Link
+2. Select the button
+    ● SVideo - Give File as video
+    ● DFile  - Give File
+    ● MP3  - Give File as Audio
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+Send /me to know current plan details
+
+Support Group/Channel : @ModzillaGroup | @Modzilla"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
